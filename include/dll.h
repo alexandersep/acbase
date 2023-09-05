@@ -19,21 +19,21 @@ struct dll {
 // Returns: DLL Struct Pointer
 struct dll * dll_init();
 
-// DLL insert first 
+// DLL insert head 
 // Summary: Insert a float val at the head of a dll
 void dll_insert_head(struct dll* dll, float val);
 
-// DLL insert last 
+// DLL insert tail 
 // Summary: Insert a float val at the tail of a dll
 void dll_insert_tail(struct dll* dll, float val);
-
-// DLL insert tail unique
-// Summary: Insert a float val in tail if it is unique to the dll 
-void dll_insert_tail_unique(struct dll* dll, float val);
 
 // DLL insert head unique
 // Summary: Insert a float val in head if it is unique to the dll 
 void dll_insert_head_unique(struct dll* dll, float val);
+
+// DLL insert tail unique
+// Summary: Insert a float val in tail if it is unique to the dll 
+void dll_insert_tail_unique(struct dll* dll, float val);
 
 // DLL lookup first
 // Summary: Looks for a float val given a dll and a float starting from the head

@@ -43,6 +43,10 @@ void ll_remove(struct ll* ll, float val);
 // Summary: Prints the ll in order
 void ll_print(struct ll* ll);
 
+// LL reverse
+// Summary: Reverse the ll 
+// void ll_reverse(struct ll* ll);
+
 // LL print reverse
 // Summary: Prints the ll in reverse order O(N) memory for stack printing
 // void ll_print_reverse(struct ll* ll);
